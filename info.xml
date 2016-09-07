@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<extension key="org.civicrm.personalcampaignpages" type="module">
+  <file>personalcampaignpages</file>
+  <name>Contact Personal Campaign Pages</name>
+  <description>Allow to see contact's Personal Campaign Pages in contact tab itself.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Rahul Gavande</author>
+    <email>rahul@leecorn.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-09-02</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.6</ver>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>-</comments>
+  <civix>
+    <namespace>CRM/Personalcampaignpages</namespace>
+  </civix>
+</extension>

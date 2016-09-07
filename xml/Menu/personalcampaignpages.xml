@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/contactpcp</path>
+    <page_callback>CRM_Personalcampaignpages_Page_ContactPCP</page_callback>
+    <title>ContactPCP</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

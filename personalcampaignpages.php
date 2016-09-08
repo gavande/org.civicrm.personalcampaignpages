@@ -133,7 +133,7 @@ function personalcampaignpages_civicrm_tabset($tabsetName, &$tabs, $context) {
     
     $contactId = $context['contact_id'];
 
-    $count = civicrm_api3('Pcp', 'getcount', array(
+    $count = civicrm_api3('PersonalCampaignPage', 'getcount', array(
       'sequential' => 1,
       'contact_id' => $contactId,
     ));
